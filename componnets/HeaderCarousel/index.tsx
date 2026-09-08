@@ -19,7 +19,7 @@ const HeaderCarousel = () => {
   };
   const slide = slides[current];
   return (
-    <section className="relative h-125 w-full overflow-hidden sm:h-150 lg:h-175">
+    <section className="relative h-300 w-full overflow-hidden sm:h-150 lg:h-175">
       {/* Image / Video */}
       <div className="absolute inset-0">
         {slide.type === "video" ? (
@@ -29,7 +29,7 @@ const HeaderCarousel = () => {
             muted
             loop
             playsInline
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-center"
           >
             <source src={slide.src} type="video/mp4" />
           </video>
@@ -38,7 +38,7 @@ const HeaderCarousel = () => {
             key={slide.src}
             src={slide.src}
             alt={slide.title}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-center"
           />
         )}
       </div>

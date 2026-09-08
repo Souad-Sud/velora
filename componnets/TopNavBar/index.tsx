@@ -9,7 +9,7 @@ const TopNavBar = () => {
       <div className="text-center min-[913px]:block pt-4 pb-4">
         <p>Free home delivery on purchases over 400 SEK</p>
       </div>
-      <div className="text-2xl font-bold font-mono">Velora</div>
+      <div className="text-3xl font-bold font-mono">Velora</div>
       <ul className="flex items-center justify-around gap-6 tracking-[0.01em]">
         <li>
           <a href="">Velora Magazine</a>

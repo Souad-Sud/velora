@@ -3,7 +3,7 @@ import { Slide } from "@/types/slide";
 export const slides: Slide[] = [
   {
     type: "image",
-    src: "/images/slide-1.jpg",
+    src: "/images/summer-product-image/slide-11.jpg",
     title: "Fresh and floral favorites",
     description:
       "with love from Velora.",
@@ -21,7 +21,7 @@ export const slides: Slide[] = [
 
   {
     type: "image",
-    src: "/images/slide-2.jpg",
+    src: "/images/summer-product-image/slide-12.jpg",
     title: "New make-up with skin-care benefits",
     description:
       "Fresh, soft and natural",
@@ -29,7 +29,15 @@ export const slides: Slide[] = [
   },
     {
     type: "image",
-    src: "/images/slide-3.jpg",
+    src: "/images/summer-product-image/slide-14.jpg",
+    title: "Fresh and floral favorites",
+    description:
+      "with love from Velora.",
+    button: "DISCOVER",
+  },
+  {
+    type: "image",
+    src: "/images/slide-4.jpg",
     title: "Fresh and floral favorites",
     description:
       "with love from Velora.",

@@ -32,7 +32,7 @@ const SummerProductCard = ({ product }: ProductCardProps) => {
       {/* =================================
           PRODUCT IMAGE
       ================================== */}
-      <div className="relative aspect-square w-full overflow-hidden">
+      <div className="relative aspect-3/4 w-full overflow-hidden ">
         <Image
           src={displayedImage}
           alt={product.title}
@@ -46,9 +46,9 @@ const SummerProductCard = ({ product }: ProductCardProps) => {
           PRODUCT INFORMATION
       ================================== */}
       <div className="mt-4 flex h-full flex-col bg-slate-50 p-2">
-        <h2 className="text-lg font-medium pt-1">{product.title}</h2>
+        <h2 className="text-2xl font-medium pt-1">{product.title}</h2>
 
-        <p className="mt-1 line-clamp-2 text-sm text-gray-500">
+        <p className="mt-1 line-clamp-2 text-md pt-1.5 pb-1.5 text-gray-500">
           {product.description}
         </p>
             {product.variants && product.variants.length > 0 && (
@@ -89,7 +89,7 @@ const SummerProductCard = ({ product }: ProductCardProps) => {
         </div>
       )}
 
-        <h3 className="mt-3 font-semibold">{product.price.toFixed(2)} kr</h3>
+        <h3 className="mt-3 text-2xl text-mauve-600">{product.price.toFixed(2)} kr</h3>
       </div>
 
       {/* =================================

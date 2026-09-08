@@ -20,7 +20,7 @@ const SummerProductSection = () => {
       <IntroductionTitle />
 
       {/* Slider */}
-      <div className="mt-30 mx-auto w-full max-w-7xl overflow-hidden px-6 md:px-8 lg:px-12">
+      <div className="mt-30 mx-auto w-full max-w-7xl overflow-hidden px-6 md:px-7 lg:px-2">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{
@@ -76,8 +76,8 @@ const SummerProductSection = () => {
                   <span
                     className={`block transition-all duration-300 ${
                       isActive
-                        ? "h-0.5 w-8 bg-amber-950"
-                        : "h-4 w-4 rounded-full bg-amber-950"
+                        ? "h-0.5 w-8 bg-cyan-900"
+                        : "h-4 w-4 rounded-full bg-cyan-900"
                     }`}
                   />
                 </button>
